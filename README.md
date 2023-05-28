@@ -1,4 +1,4 @@
-live demo:https://grocery-bud13.netlify.app/
+live demo : https://grocery-bud13.netlify.app/
 
 ## Steps
 
