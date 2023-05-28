@@ -38,6 +38,9 @@ const App = () => {
         list.map((item) => {
           if (item.id === editID) {
             return { ...item, title: name };
+          } else if (item.title === "") {
+            showAlert(true, "please enter the update", "danger");
+            setName(name);
           }
           return item;
         })
